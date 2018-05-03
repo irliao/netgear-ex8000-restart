@@ -1,0 +1,15 @@
+{
+  "name": "netgear-ex8000-restart",
+  "version": "1.0.0",
+  "description": "Restart your Nighthawk X6S Tri-Band Range Extender",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ryan Liao",
+  "license": "ISC",
+  "dependencies": {
+    "npm": "^6.0.0",
+    "puppeteer": "^1.3.0"
+  }
+}
