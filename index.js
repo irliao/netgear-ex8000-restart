@@ -19,7 +19,7 @@ const waitOptions = {waitUntil: ['load', 'networkidle0']};
 (async () => {
   const browser = await puppeteer.launch({headless: headless, /* slowMo: 250 */ });
   const page = await browser.newPage();
-  await page.setViewport({width: 1200, height: 800, deviceScaleFactor: 2}); // prevent mobile pages
+  await page.setViewport({width: 1200, height: 800, deviceScaleFactor: 2}); // viewport size set to prevent mobile version
   await page.goto('http://mywifiext.local', waitOptions);
   await page.type('#userId', username)
   await page.type('#password', password)
@@ -37,6 +37,6 @@ const waitOptions = {waitUntil: ['load', 'networkidle0']};
     page.waitForNavigation(waitOptions),
     page.click('#restartYesBt'), // triggers navigation
   ]);
-  browser.close();
+  await browser.close();
 })();
 
