@@ -5,6 +5,11 @@ More than often (at least for mine), the extender is unstable and has to be rest
 Restarting the extender requires the user to manually login to the extender in a browser and go through multiple pages until you reach the restart button.
 Instead of doing this manually (which gets old real quick), this program will restart the extender without needing to go on the browser.
 
+### Disclaimer
+Please carefully review the source code before installing and running it.
+
+**I am not responsible for any damage or data loss caused by this repository. Run at your own risk!**
+
 ## How to Install
 ```bash
 npm i
@@ -26,23 +31,17 @@ node index.js
 ```
 
 ## How to Debug
-Shows the Chromium browser
+Opens Chromium to show actions taken and outputs debug logs.
 ```bash
-node index.js --showBrowser
+node index.js --debug
 ```
 
-## Resources
-- https://github.com/GoogleChrome/puppeteer/blob/master/docs/api.md#
-- https://www.w3schools.com/cssref/css_selectors.asp
-
-## TODO
-- add more logging (INFO for current progress, DEBUG for details)
-- make this into single CLI command
-- make program quit after restart has started
-- detect and notify when network if back up (restart completed)
+## Dependencies
+* [puppeteer](https://github.com/puppeteer/puppeteer)
+* [log4js-node](https://github.com/log4js-node/log4js-node)
 
 ## License
-Copyright (c) 2018 Ryan Liao. Released under the [MIT License][license].
+Copyright (c) 2020 Ryan Liao. Released under the [MIT License][license].
 
 [license]: LICENSE
 [readme]: README.md
