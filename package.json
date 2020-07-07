@@ -10,7 +10,7 @@
   "license": "ISC",
   "dependencies": {
     "log4js": "^6.2.1",
-    "npm": "^6.14.4",
+    "npm": "^6.14.6",
     "puppeteer": "^3.0.2"
   }
 }
