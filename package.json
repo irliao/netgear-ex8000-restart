@@ -9,7 +9,7 @@
   "author": "Ryan Liao",
   "license": "ISC",
   "dependencies": {
-    "log4js": "^6.2.1",
+    "log4js": "^6.4.0",
     "npm": "^6.14.6",
     "puppeteer": "^3.0.2"
   }
