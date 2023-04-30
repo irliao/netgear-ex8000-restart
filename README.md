@@ -41,7 +41,7 @@ node index.js --debug
 * [log4js-node](https://github.com/log4js-node/log4js-node)
 
 ## License
-Copyright (c) 2020 Ryan Liao. Released under the [MIT License][license].
+Copyright (c) 2023 Ryan Liao. Released under the [MIT License][license].
 
 [license]: LICENSE
 [readme]: README.md
